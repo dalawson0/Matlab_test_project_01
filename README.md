@@ -77,7 +77,7 @@ So in termnial run the following command to create a new SSH key, thereby assumi
 ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 
-where "yout_email@example.com" should be the email you used to make your Github account. 
+where "your_email@example.com" should be the email you used to make your Github account. 
 
 Next, add your key to the SSH agant by running each of the following lines separately.
 
