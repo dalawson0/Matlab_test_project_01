@@ -92,7 +92,7 @@ Awesome! Now its time to add your public key to GitHub by copying the content of
 cat ~/.ssh/id_ed25519.pub
 ```
 
-Next, we have to go to GitHub > Settings > SSH and GPG keys > New Keys and paste in our public key via "CTRL+v" or "CMD+v"
+Next, we have to go to **GitHub > Settings > SSH and GPG keys > New Keys** and paste in our public key via "CTRL+v" or "CMD+v"
 
 Let's confirm that we set up the connection right but running the following line of code in our terminal:
 
@@ -108,15 +108,15 @@ After all this work we are finally ready to create a remote repo! To do this nav
 
 On the left hand side you should see a green button titled "New". Click it!
 
-WARNING: When you are providing metadata on your repository and specifying initial configurations be sure that "Add README", "Add .gitignore", and "Add license" are turned to "off" if and only if you have set up a README.md, lisence, and .gitignore file in your parent project directory already!
+**WARNING:** When you are providing metadata on your repository and specifying initial configurations be sure that "Add README", "Add .gitignore", and "Add license" are turned to "off" if and only if you have set up a README.md, lisence, and .gitignore file in your parent project directory already!
  
 Since we have not set any of these up we can enable all of them for you repository!
 
-After clicking the button "Create repository" we have successfully create a remote repo that we can now link to our local git repository. 
+After clicking the button **"Create repository"** we have successfully create a remote repo that we can now link to our local git repository. 
 
 ## Connecting git to GitHub repository
 
-To connect the two repositories we first go to GitHub and underneath where it says "Quick setup ..." click on the SSH button and copy that text!
+To connect the two repositories we first go to GitHub and underneath where it says **"Quick setup ..."** click on the SSH button and copy that text!
 
 We then go to the terminal and run the following commands to push an existing repository to GitHub:
 
