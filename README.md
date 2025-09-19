@@ -1,4 +1,4 @@
-# GitHub Matlab Project Submission
+# MATLAB File Exchange Integration with GitHub
 
 Here we summarize the steps involved in making a Matlab project available on File Exchange via Github
 
@@ -149,6 +149,35 @@ Alternatively, if you decide to make changes to the remote repo, and wish to hav
 ```bash
 git pull origin main
 ```
+
+## How to Link a GitHub Repository to MATLAB File Exchange
+
+To be able to use you new GitHub repository with MATLAB file exchange we use the "MATLAB and Simulink Integration for GitHub" tool that has been added to GitHub.
+
+1. Go to your [MATLAB File Exchange account](https://www.mathworks.com/matlabcentral/fileexchange/)  
+   → **Manage GitHub Link**.
+2. Install or configure the **MATLAB and Simulink Integration for GitHub** app.
+3. When prompted, choose **Select repositories** and add this repository.  
+   (Recommended: don’t give access to “all repos” unless you want all of them visible.)
+4. Once connected, MATLAB File Exchange will display your repository and allow you
+   to publish versions automatically from GitHub.
+
+## Important Notes
+
+- **Private repositories**:  
+  If this repo is set to *Private*, File Exchange will show it grayed out and
+  you will not be able to publish it.  
+  To publish, you must change the GitHub repo visibility to **Public**:
+  - Go to your repo on GitHub → **Settings → General → Danger Zone**  
+    → Change visibility → **Make public**.
+
+- **Versioning / Releases** (recommended):  
+  Use [GitHub Releases](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases)  
+  to tag stable versions of your code. File Exchange can mirror those releases,
+  making it easier for others to download and use consistent snapshots.
+
+## Quick Tips
+- Keep your repository public if you intend to share it on File Exchange.
 
 # For Help
 email: da.lawson0@gmail.com
