@@ -132,5 +132,23 @@ git push -u origin main
 
 Awesome sauce! Now to confirm that you have completed this process successfully, you should reload the GitHub page and should see the 4 folders we created populated!
 
+## Using both the local and remote repositories
+
+Now upon making changes to your local repo, and wish to make them available to your remote repo, you should:
+1. Stage the change 
+2. Commit the change to local repo
+3. Push the local change to the remote repo via 
+
+```bash
+git push origin main
+```
+
+Alternatively, if you decide to make changes to the remote repo, and wish to have them locally, you should:
+1. Pull the remote changes to the local repo in command line via
+
+```bash
+git pull origin main
+```
+
 # For Help
 email: da.lawson0@gmail.com
