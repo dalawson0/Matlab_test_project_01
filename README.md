@@ -1,10 +1,10 @@
-# Github Matlab Project Submission
+# GitHub Matlab Project Submission
 
 Here we summarize the steps involved in making a Matlab project available on File Exchange via Github
 
 ## Prerequisites
 
-1) Please sign up or log into your Github account.
+1) Please sign up or log into your GitHub account.
 
 2) Download the package manager [Homebrew](https://brew.sh/) if you don't already have it installed.
 
@@ -44,7 +44,7 @@ Then you can add in anticipated child directories and/or populate the directory 
 mkdir ./tests ./examples ./images ./data
 ```
 
-## Creating a local repository
+## Creating a local git repo and an ssh key
 
 Now you are ready to make your project directory a local repository using git create a "git".
 
@@ -54,14 +54,83 @@ To do this we navigate to be inside the parent directory of the project using th
 git init
 ```
 
-Then do remote gihub stuff
+We then establish our first commit to the local repository to store the current state of the parent directory i.e. the 4 child directories we have created earlier.
 
-Then back to terminal to set up SSH
+Since we will store all the files/folders in our parent directory we will use the period operator '.' to indicate that all items in this current directory should be be 'staged' or stored in a intermediate location.
 
-then back to github (remote) 
+```bash 
+git add .
+```
 
-then connect the two 
+Since we indeed want to store this files and save this as the initial state of our project we will use the "commit" command. In addition we will use the flag "-m" to attached a string containing a short description about the commit.
 
-then confirm things by visiing the Gitbub remote repository page
+```bash
+git commit -m "Initial Commit"
 
-then go to MATLAB file exchange page then back to Github and then you're like done.
+## Set up SSH key
+
+before we move onto Github on our browsers let us create a SSH key that enables us to make authenticated and  protected API calls to GitHub's servers that store our remote repository that we will set up in the next section. 
+
+So in termnial run the following command to create a new SSH key, thereby assuming you don't have a SSH key.
+
+```bash
+ssh-keygen -t ed25519 -C "your_email@example.com"
+```
+
+where "yout_email@example.com" should be the email you used to make your Github account. 
+
+Next, add your key to the SSH agant by running each of the following lines separately.
+
+```bash
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+```
+
+Awesome! Now its time to add your public key to GitHub by copying the content of the  ".pub" file:
+
+```bash
+cat ~/.ssh/id_ed25519.pub
+```
+
+Next, we have to go to GitHub > Settings > SSH and GPG keys > New Keys and paste in our public key via "CTRL+v" or "CMD+v"
+
+Let's confirm that we set up the connection right but running the following line of code in our terminal:
+
+```bash
+ssh -T git@github.com
+```
+
+If "Hi YourUserName! You've succesffuly authenticated...", then you have successfully set up you SSH key and shared the proper one with your GitHub account. 
+
+## Creating a remote GitHub repository
+
+After all this work we are finally ready to create a remote repo! To do this navigate to [GitHub](https://github.com) and sign in if you aren't already.
+
+On the left hand side you should see a green button titled "New". Click it!
+
+WARNING: When you are providing metadata on your repository and specifying initial configurations be sure that "Add README", "Add .gitignore", and "Add license" are turned to "off" if and only if you have set up a README.md, lisence, and .gitignore file in your parent project directory already!
+ 
+Since we have not set any of these up we can enable all of them for you repository!
+
+After clicking the button "Create repository" we have successfully create a remote repo that we can now link to our local git repository. 
+
+## Connecting git to GitHub repository
+
+To connect the two repositories we first go to GitHub and underneath where it says "Quick setup ..." click on the SSH button and copy that text!
+
+We then go to the terminal and run the following commands to push an existing repository to GitHub:
+
+```bash
+git remote add origin git@github.com:YourUser/YourRepo.git
+```
+```bash
+branch -M main
+```
+```bash
+git push -u origin main
+```
+
+Awesome sauce! Now to confirm that you have completed this process successfully, you should reload the GitHub page and should see the 4 folders we created populated!
+
+# For Help
+email: da.lawson0@gmail.com
