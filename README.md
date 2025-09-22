@@ -157,12 +157,10 @@ git pull origin main
 
 To be able to use you new GitHub repository with MATLAB file exchange we use the "MATLAB and Simulink Integration for GitHub" tool that has been added to GitHub.
 
-1. Go to your [MATLAB File Exchange account](https://www.mathworks.com/matlabcentral/fileexchange/)  
-   → **Manage GitHub Link**.
-1. Navigate [here](https://www.mathworks.com/matlabcentral/fileexchange/my-file-exchange/github-app-installation-guide) to learn how to connect GitHub to MATLAB and Simulink, or to jump right in click [here](https://github.com/apps/matlab-and-simulink-integration/installations/select_target?state=ZmlsZWV4Y2hhbmdl)
+1. Navigate [here](https://www.mathworks.com/matlabcentral/fileexchange/my-file-exchange/github-app-installation-guide) to learn how to connect GitHub to MATLAB and Simulink, or to jump right in click [here](https://github.com/apps/matlab-and-simulink-integration/installations/select_target?state=ZmlsZWV4Y2hhbmdl).
 2. When prompted, choose **Select repositories** and add this repository. 
    (Recommended: don’t give access to “all repos” unless you want all of them visible.)
-3. Go to your [MATLAB File Exchange account](https://www.mathworks.com/matlabce$ → Publish page to confirm that MATLAB File Exchange will display your repository and allow you
+3. Go to your [MATLAB File Exchange account](https://www.mathworks.com/matlabcentral/fileexchange/) → Publish page to confirm that MATLAB File Exchange will display your repository and allow you
    to publish versions automatically from GitHub.
 
 ## Important Notes
