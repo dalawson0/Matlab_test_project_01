@@ -44,7 +44,7 @@ Then you can add in anticipated child directories and/or populate the directory 
 mkdir ./tests ./examples ./images ./data
 ```
 
-## Creating a local git repo and an ssh key
+## Creating a local git repo
 
 Now you are ready to make your project directory a local repository using git create a "git".
 
@@ -66,6 +66,7 @@ Since we indeed want to store this files and save this as the initial state of o
 
 ```bash
 git commit -m "Initial Commit"
+```
 
 ## Set up SSH key
 
