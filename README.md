@@ -4,8 +4,8 @@ Here we summarize the steps involved in making a Matlab project available on Fil
 
 #### Table of Contents
 [Prerequisites](#Prerequisites)
-[Project Setup](##Project-Setup)
-[Creating Local Repository](##Creating a local git repo)
+[Project Setup](#Project-Setup)
+[Creating Local Repository](#Creating-a-local-git-repo)
 
 ## Prerequisites
 
