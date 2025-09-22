@@ -3,8 +3,8 @@
 Here we summarize the steps involved in making a Matlab project available on File Exchange via Github
 
 #### Table of Contents
-[Prerequisites](## Prerequisites)
-[Project Setup](## Project Setup)
+[Prerequisites](##Prerequisites)
+[Project Setup](##Project-Setup)
 
 ## Prerequisites
 
