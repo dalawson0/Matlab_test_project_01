@@ -3,9 +3,15 @@
 Here we summarize the steps involved in making a Matlab project available on File Exchange via Github
 
 #### Table of Contents
-[Prerequisites](#Prerequisites)
-[Project Setup](#Project-Setup)
-[Creating Local Repository](#Creating-a-local-git-repo)
+[Prerequisites](#Prerequisites),
+[Project Setup](#Project-Setup),
+[Creating a Local Repository](#Create-Local-git-Repository),
+[Setting up SSH key](#Set-up-SSH-key),
+## How to Link a GitHub Repository to MATLAB File Exchange
+## Connecting git to GitHub repository
+## Using both the local and remote repositories
+[Important Notes](#Important Notes)
+[Get Help](#Get-Help)
 
 ## Prerequisites
 
@@ -51,7 +57,7 @@ Then you can add in anticipated child directories and/or populate the directory 
 mkdir ./tests ./examples ./images ./data
 ```
 
-##Creating a local git repo
+## Create Local git Repository
 
 Now you are ready to make your project directory a local repository using git create a "git".
 
