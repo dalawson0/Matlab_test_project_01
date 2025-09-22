@@ -2,6 +2,10 @@
 
 Here we summarize the steps involved in making a Matlab project available on File Exchange via Github
 
+#### Table of Contents
+[Prerequisites](## Prerequisites)
+[Project Setup](## Project Setup)
+
 ## Prerequisites
 
 1) Please sign up or have your [GitHub account](https://github.com/).
@@ -12,7 +16,7 @@ Here we summarize the steps involved in making a Matlab project available on Fil
 
 4) Please sign up or have your [MathWorks account](https://login.mathworks.com/embedded-login/signin.html?cid=mktg&wid=gnav&uri=https%3A%2F%2Fwww.mathworks.com%2Fmatlabcentral%2Ffileexchange%2F).
 
-## Set up
+## Project Setup
 
 Once you have git locally and an remote Github account you are now able to start creating your project.
 
