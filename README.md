@@ -4,11 +4,13 @@ Here we summarize the steps involved in making a Matlab project available on Fil
 
 ## Prerequisites
 
-1) Please sign up or log into your GitHub account.
+1) Please sign up or have your [GitHub account](https://github.com/).
 
 2) Download the package manager [Homebrew](https://brew.sh/) if you don't already have it installed.
 
 3) Download [git](https://git-scm.com/downloads) for your local computer.
+
+4) Please sign up or have your [MathWorks account](https://login.mathworks.com/embedded-login/signin.html?cid=mktg&wid=gnav&uri=https%3A%2F%2Fwww.mathworks.com%2Fmatlabcentral%2Ffileexchange%2F).
 
 ## Set up
 
@@ -93,7 +95,7 @@ Awesome! Now its time to add your public key to GitHub by copying the content of
 cat ~/.ssh/id_ed25519.pub
 ```
 
-Next, we have to go to **GitHub > Settings > SSH and GPG keys > New Keys** and paste in our public key via "CTRL+v" or "CMD+v"
+Next, we have to go to **GitHub → Settings → SSH and GPG keys → New Keys** and paste in our public key via "CTRL+v" or "CMD+v"
 
 Let's confirm that we set up the connection right but running the following line of code in our terminal:
 
@@ -157,10 +159,10 @@ To be able to use you new GitHub repository with MATLAB file exchange we use the
 
 1. Go to your [MATLAB File Exchange account](https://www.mathworks.com/matlabcentral/fileexchange/)  
    → **Manage GitHub Link**.
-2. Install or configure the **MATLAB and Simulink Integration for GitHub** app.
-3. When prompted, choose **Select repositories** and add this repository.  
+1. Navigate [here](https://www.mathworks.com/matlabcentral/fileexchange/my-file-exchange/github-app-installation-guide) to learn how to connect GitHub to MATLAB and Simulink, or to jump right in click [here](https://github.com/apps/matlab-and-simulink-integration/installations/select_target?state=ZmlsZWV4Y2hhbmdl)
+2. When prompted, choose **Select repositories** and add this repository. 
    (Recommended: don’t give access to “all repos” unless you want all of them visible.)
-4. Once connected, MATLAB File Exchange will display your repository and allow you
+3. Go to your [MATLAB File Exchange account](https://www.mathworks.com/matlabce$ → Publish page to confirm that MATLAB File Exchange will display your repository and allow you
    to publish versions automatically from GitHub.
 
 ## Important Notes
