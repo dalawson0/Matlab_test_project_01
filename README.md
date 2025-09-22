@@ -2,16 +2,15 @@
 
 Here we summarize the steps involved in making a Matlab project available on File Exchange via Github
 
-#### Table of Contents
-[Prerequisites](#Prerequisites),
-[Project Setup](#Project-Setup),
-[Creating a Local Repository](#Create-Local-git-Repository),
-[Setting up SSH key](#Set-up-SSH-key),
-[Connecting git and GitHub Repositories](#Connecting-git-to-GitHub-repository),
-[Utilizing Local and Remote Repos](#Using-both-the-local-and-remote-repositories),
-[Connecting MATLAB to GitHub](#How-to-Link-a-GitHub-Repository-to-MATLAB-File-Exchange),
-[Important Notes](#Important-Notes),
-[Get Help](#Get-Help)
+### Table of Contents
+1. [Prerequisites](#Prerequisites)
+2. [Project Setup](#Project-Setup)
+3. [Creating a Local Repository](#Create-Local-git-Repository)
+4. [Setting up SSH key](#Set-up-SSH-key)
+5. [Connecting git and GitHub Repositories](#Connecting-git-to-GitHub-repository)
+6. [Utilizing Local and Remote Repos](#Using-both-the-local-and-remote-repositories)
+7. [Connecting MATLAB to GitHub](#How-to-Link-a-GitHub-Repository-to-MATLAB-File-Exchange)
+8. [Important Notes](#Important-Notes)
 
 ## Prerequisites
 
